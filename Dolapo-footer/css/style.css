@@ -1,0 +1,66 @@
+/* ----------------------footer--------------- */
+footer {
+    padding: 40px 140px;
+    background-color: rgba(23, 23, 116, 1);
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .top>div {
+    width: 43%;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+.left {
+    margin-top: 50px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.left a:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.right p {
+    margin-bottom: 15px;
+}
+
+.fs {
+    font-size: 2rem;
+}
+
+.right form input {
+    display: block;
+    color: rgba(23, 23, 116, 1);
+    padding: 15px;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+
+.right form input:focus {
+    outline: none;
+}
+
+.bottom{
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* -----mobile ----- */
